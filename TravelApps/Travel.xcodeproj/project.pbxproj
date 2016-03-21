@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEC6D6E01C9B8A010018CC35 /* TravelJournal2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC6D6D51C9B8A010018CC35 /* TravelJournal2ViewController.m */; };
+		CEC6D6E11C9B8A010018CC35 /* TravelJournalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC6D6D71C9B8A010018CC35 /* TravelJournalTableViewController.m */; };
+		CEC6D6E21C9B8A010018CC35 /* TravelJournalTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC6D6D81C9B8A010018CC35 /* TravelJournalTableViewController.xib */; };
+		CEC6D6E31C9B8A010018CC35 /* HeadBook.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC6D6DB1C9B8A010018CC35 /* HeadBook.m */; };
+		CEC6D6E41C9B8A010018CC35 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC6D6DE1C9B8A010018CC35 /* MyTableViewCell.m */; };
+		CEC6D6E51C9B8A010018CC35 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC6D6DF1C9B8A010018CC35 /* MyTableViewCell.xib */; };
 		CF20EE7D1C9AA5D90021F688 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF20EE7C1C9AA5D90021F688 /* main.m */; };
 		CF20EE801C9AA5D90021F688 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF20EE7F1C9AA5D90021F688 /* AppDelegate.m */; };
 		CF20EE831C9AA5D90021F688 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF20EE821C9AA5D90021F688 /* ViewController.m */; };
@@ -38,6 +44,16 @@
 /* Begin PBXFileReference section */
 		5B79A7714D85CCF0D487026A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		7E6514CB152C4F204FA14023 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CEC6D6D41C9B8A010018CC35 /* TravelJournal2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelJournal2ViewController.h; sourceTree = "<group>"; };
+		CEC6D6D51C9B8A010018CC35 /* TravelJournal2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelJournal2ViewController.m; sourceTree = "<group>"; };
+		CEC6D6D61C9B8A010018CC35 /* TravelJournalTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelJournalTableViewController.h; sourceTree = "<group>"; };
+		CEC6D6D71C9B8A010018CC35 /* TravelJournalTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelJournalTableViewController.m; sourceTree = "<group>"; };
+		CEC6D6D81C9B8A010018CC35 /* TravelJournalTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TravelJournalTableViewController.xib; sourceTree = "<group>"; };
+		CEC6D6DA1C9B8A010018CC35 /* HeadBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadBook.h; sourceTree = "<group>"; };
+		CEC6D6DB1C9B8A010018CC35 /* HeadBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadBook.m; sourceTree = "<group>"; };
+		CEC6D6DD1C9B8A010018CC35 /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		CEC6D6DE1C9B8A010018CC35 /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		CEC6D6DF1C9B8A010018CC35 /* MyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
 		CF20EE781C9AA5D90021F688 /* Travel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Travel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF20EE7C1C9AA5D90021F688 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CF20EE7E1C9AA5D90021F688 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -100,6 +116,47 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		CEC6D6D21C9B8A010018CC35 /* TravelJournal2 */ = {
+			isa = PBXGroup;
+			children = (
+				CEC6D6D31C9B8A010018CC35 /* Controller */,
+				CEC6D6D91C9B8A010018CC35 /* Model */,
+				CEC6D6DC1C9B8A010018CC35 /* VIew */,
+			);
+			path = TravelJournal2;
+			sourceTree = "<group>";
+		};
+		CEC6D6D31C9B8A010018CC35 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CEC6D6D41C9B8A010018CC35 /* TravelJournal2ViewController.h */,
+				CEC6D6D51C9B8A010018CC35 /* TravelJournal2ViewController.m */,
+				CEC6D6D61C9B8A010018CC35 /* TravelJournalTableViewController.h */,
+				CEC6D6D71C9B8A010018CC35 /* TravelJournalTableViewController.m */,
+				CEC6D6D81C9B8A010018CC35 /* TravelJournalTableViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CEC6D6D91C9B8A010018CC35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEC6D6DA1C9B8A010018CC35 /* HeadBook.h */,
+				CEC6D6DB1C9B8A010018CC35 /* HeadBook.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEC6D6DC1C9B8A010018CC35 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				CEC6D6DD1C9B8A010018CC35 /* MyTableViewCell.h */,
+				CEC6D6DE1C9B8A010018CC35 /* MyTableViewCell.m */,
+				CEC6D6DF1C9B8A010018CC35 /* MyTableViewCell.xib */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
 		CF20EE6F1C9AA5D90021F688 = {
 			isa = PBXGroup;
 			children = (
@@ -125,13 +182,7 @@
 		CF20EE7A1C9AA5D90021F688 /* Travel */ = {
 			isa = PBXGroup;
 			children = (
-				CF20EEC61C9AA9CD0021F688 /* Other */,
-				CF20EEC21C9AA9960021F688 /* Welcome */,
-				CF20EEBE1C9AA9900021F688 /* PrivateRecommend4 */,
-				CF20EEBA1C9AA97F0021F688 /* TravelJournal2 */,
-				CF20EEB61C9AA9710021F688 /* Post3 */,
-				CF20EEAE1C9AA9650021F688 /* Discovery1 */,
-				CF20EEB21C9AA9650021F688 /* Me5 */,
+				CEC6D6D21C9B8A010018CC35 /* TravelJournal2 */,
 				CF20EE7E1C9AA5D90021F688 /* AppDelegate.h */,
 				CF20EE7F1C9AA5D90021F688 /* AppDelegate.m */,
 				CF20EE811C9AA5D90021F688 /* ViewController.h */,
@@ -169,199 +220,6 @@
 				CF20EEA21C9AA5D90021F688 /* Info.plist */,
 			);
 			path = TravelUITests;
-			sourceTree = "<group>";
-		};
-		CF20EEAE1C9AA9650021F688 /* Discovery1 */ = {
-			isa = PBXGroup;
-			children = (
-				CF20EEAF1C9AA9650021F688 /* Controller */,
-				CF20EEB01C9AA9650021F688 /* Model */,
-				CF20EEB11C9AA9650021F688 /* View */,
-			);
-			path = Discovery1;
-			sourceTree = "<group>";
-		};
-		CF20EEAF1C9AA9650021F688 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		CF20EEB01C9AA9650021F688 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		CF20EEB11C9AA9650021F688 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		CF20EEB21C9AA9650021F688 /* Me5 */ = {
-			isa = PBXGroup;
-			children = (
-				CF20EEB31C9AA9650021F688 /* Controller */,
-				CF20EEB41C9AA9650021F688 /* Model */,
-				CF20EEB51C9AA9650021F688 /* View */,
-			);
-			path = Me5;
-			sourceTree = "<group>";
-		};
-		CF20EEB31C9AA9650021F688 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		CF20EEB41C9AA9650021F688 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		CF20EEB51C9AA9650021F688 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		CF20EEB61C9AA9710021F688 /* Post3 */ = {
-			isa = PBXGroup;
-			children = (
-				CF20EEB71C9AA9710021F688 /* Controller */,
-				CF20EEB81C9AA9710021F688 /* Model */,
-				CF20EEB91C9AA9710021F688 /* View */,
-			);
-			path = Post3;
-			sourceTree = "<group>";
-		};
-		CF20EEB71C9AA9710021F688 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		CF20EEB81C9AA9710021F688 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		CF20EEB91C9AA9710021F688 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		CF20EEBA1C9AA97F0021F688 /* TravelJournal2 */ = {
-			isa = PBXGroup;
-			children = (
-				CF20EEBB1C9AA97F0021F688 /* Controller */,
-				CF20EEBC1C9AA97F0021F688 /* Model */,
-				CF20EEBD1C9AA97F0021F688 /* View */,
-			);
-			path = TravelJournal2;
-			sourceTree = "<group>";
-		};
-		CF20EEBB1C9AA97F0021F688 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		CF20EEBC1C9AA97F0021F688 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		CF20EEBD1C9AA97F0021F688 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		CF20EEBE1C9AA9900021F688 /* PrivateRecommend4 */ = {
-			isa = PBXGroup;
-			children = (
-				CF20EEBF1C9AA9900021F688 /* Controller */,
-				CF20EEC01C9AA9900021F688 /* Model */,
-				CF20EEC11C9AA9900021F688 /* View */,
-			);
-			path = PrivateRecommend4;
-			sourceTree = "<group>";
-		};
-		CF20EEBF1C9AA9900021F688 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		CF20EEC01C9AA9900021F688 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		CF20EEC11C9AA9900021F688 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		CF20EEC21C9AA9960021F688 /* Welcome */ = {
-			isa = PBXGroup;
-			children = (
-				CF20EEC31C9AA9960021F688 /* Controller */,
-				CF20EEC41C9AA9960021F688 /* Model */,
-				CF20EEC51C9AA9960021F688 /* View */,
-			);
-			path = Welcome;
-			sourceTree = "<group>";
-		};
-		CF20EEC31C9AA9960021F688 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		CF20EEC41C9AA9960021F688 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		CF20EEC51C9AA9960021F688 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		CF20EEC61C9AA9CD0021F688 /* Other */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -470,7 +328,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEC6D6E51C9B8A010018CC35 /* MyTableViewCell.xib in Resources */,
 				CF20EE8B1C9AA5D90021F688 /* LaunchScreen.storyboard in Resources */,
+				CEC6D6E21C9B8A010018CC35 /* TravelJournalTableViewController.xib in Resources */,
 				CF20EE881C9AA5D90021F688 /* Assets.xcassets in Resources */,
 				CF20EE861C9AA5D90021F688 /* Main.storyboard in Resources */,
 			);
@@ -546,8 +406,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF20EE831C9AA5D90021F688 /* ViewController.m in Sources */,
+				CEC6D6E41C9B8A010018CC35 /* MyTableViewCell.m in Sources */,
 				CF20EE801C9AA5D90021F688 /* AppDelegate.m in Sources */,
 				CF20EE7D1C9AA5D90021F688 /* main.m in Sources */,
+				CEC6D6E11C9B8A010018CC35 /* TravelJournalTableViewController.m in Sources */,
+				CEC6D6E31C9B8A010018CC35 /* HeadBook.m in Sources */,
+				CEC6D6E01C9B8A010018CC35 /* TravelJournal2ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
